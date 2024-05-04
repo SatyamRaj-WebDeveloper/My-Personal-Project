@@ -1,0 +1,148 @@
+[
+    {
+      "name": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
+      "image": "https://st3.depositphotos.com/1375221/35974/i/450/depositphotos_359740284-stock-photo-dish-delicious-spaghetti-alla-carbonara.jpg",
+      "price": 12.99,
+      "rating":5.6
+
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "description": "Creamy Indian curry dish with tender chicken pieces, yogurt, and spices.",
+      "image": "https://media.gettyimages.com/id/1461693327/photo/chicken-curry.jpg?s=612x612&w=0&k=20&c=z5vlGmzal4D4Sz1uNs6Jc4OlK75tG9BJMERsHPZ5X-o=",
+      "price": 14.99,
+      "rating":8
+
+    },
+    {
+      "name": "Margherita Pizza",
+      "description": "Traditional Italian pizza topped with tomato sauce, mozzarella cheese, and fresh basil leaves.",
+      "image": "https://st.depositphotos.com/1764882/2595/i/450/depositphotos_25950851-stock-photo-italian-pizza.jpg",
+      "price": 10.99,
+      "rating":4.9
+
+    },
+    {
+        "name": "Sushi",
+        "description": "Japanese dish consisting of vinegared rice combined with various ingredients such as seafood, vegetables, and occasionally tropical fruits.",
+        "image": "https://media.istockphoto.com/id/135849804/photo/sushi.webp?b=1&s=612x612&w=0&k=20&c=PqbrDX9_95TZfQ0ZxU93nQKAmyUvVYVMHKpmsZmFtko=",
+        "price": 18.50,
+        "rating":6.3
+    },
+    {
+        "name": "Hamburger",
+        "description": "Classic American dish consisting of a grilled or fried beef patty, typically served in a bun with various toppings such as lettuce, tomato, and cheese.",
+        "image": "https://cdn.pixabay.com/photo/2017/08/26/13/32/hamburger-2683042_1280.jpg",
+        "price": 8.99,
+        "rating":9.4
+    },
+    {
+        "name": "Pad Thai",
+        "description": "Thai stir-fried noodle dish made with rice noodles, eggs, tofu, shrimp, peanuts, and bean sprouts.",
+        "image": "https://st4.depositphotos.com/2689985/19606/i/450/depositphotos_196062026-stock-photo-thai-fried-noodles-pad-thai.jpg",
+        "price": 11.75,
+        "rating":10
+    },
+    {
+        "name": "Caesar Salad",
+        "description": "Classic salad made with romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+        "image": "https://st5.depositphotos.com/3210553/65792/i/450/depositphotos_657923150-stock-photo-delicious-chicken-caesar-salad-parmesan.jpg",
+        "price": 9.25,
+        "rating":8.7
+    },
+    {
+        "name": "Beef Burrito",
+        "description": "Mexican dish consisting of a flour tortilla filled with seasoned beef, rice, beans, cheese, and salsa.",
+        "image": "https://cdn.create.vista.com/api/media/small/250455094/stock-photo-mexican-beef-burrito",
+        "price": 10.50,
+        "rating":8.2
+    },
+    {
+        "name": "Lasagna",
+        "description": "Italian dish consisting of layers of pasta, meat sauce, and cheese, typically mozzarella, ricotta, and parmesan.",
+        "image": "https://img.freepik.com/premium-photo/plate-lasagna-with-basil-cheese_917856-10878.jpg?size=626&ext=jpg",
+        "price": 13.99,
+        "rating":6.7
+    },
+    {
+        "name": "Pho",
+        "description": "Vietnamese soup consisting of broth, rice noodles, herbs, and meat, typically beef or chicken.",
+        "image": "https://media.istockphoto.com/id/1177235404/photo/vietnamise-soup-pho-bo-on-white-background-isolated.webp?b=1&s=170667a&w=0&k=20&c=8drvaxcW0AD6Y8w5m04DIog0quqvnXAPgLUw1MyxtOI=",
+        "price": 9.99,
+        "rating":5.9
+    },
+    {
+        "name": "Fish and Chips",
+        "description": "British dish consisting of battered and fried fish served with thick-cut potato chips.",
+        "image": "https://images.squarespace-cdn.com/content/v1/5ee2b10887cc1e7735c3f9e9/1592190611770-SUEN71VZ6VBUGAICR93R/CostisFishandChipsBarangaroo_MixedGrill_2880x2304.jpg",
+        "price": 11.50,
+        "rating":10
+    },{
+      "name": "Mushroom Risotto",
+      "description": "Italian rice dish cooked with mushrooms, onions, garlic, white wine, and Parmesan cheese.",
+      "image": "https://st3.depositphotos.com/3833507/13932/i/450/depositphotos_139329086-stock-photo-wild-mushrooms-risotto-with-parsley.jpg",
+      "price": 12.25,
+      "rating":10
+  },
+  {
+      "name": "Tacos",
+      "description": "Mexican dish consisting of a tortilla filled with various ingredients such as meat, beans, cheese, lettuce, and salsa.",
+      "image": "https://media.gettyimages.com/id/669793064/photo/grilled-shrimp-tacos.jpg?s=612x612&w=0&k=20&c=8qs2cOIWjcrcn3LAMsF6WIjlK0bZgWsEnNxb7KGIG9s=",
+      "price": 9.75,
+      "rating":8.5
+  },
+  {
+      "name": "Chicken Caesar Wrap",
+      "description": "Wrap filled with grilled chicken, romaine lettuce, parmesan cheese, and Caesar dressing.",
+      "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/9/25/0/ZB0307H_grilled-chicken-caesar-wrap_s4x3.jpg.rend.hgtvcom.1280.720.suffix/1371611416726.jpeg",
+      "price": 8.50,
+      "rating":7.9
+  },
+  {
+      "name": "Ratatouille",
+      "description": "French vegetable stew made with tomatoes, zucchini, eggplant, onions, bell peppers, and various herbs.",
+      "image": "https://img.freepik.com/premium-photo/ratatouille-french-stewed-vegetable-dish-with-zucchini-eggplant-peppers_818261-24765.jpg?size=626&ext=jpg",
+      "price": 10.99,
+      "rating":9.1
+  },
+  {
+      "name": "Beef Stroganoff",
+      "description": "Russian dish made with sautéed beef strips, mushrooms, onions, and a sour cream sauce, served over noodles or rice.",
+      "image": "https://www.foodandwine.com/thmb/YlvSkk7fsIGE8ywW-bT7Pal9Wh8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-beef-stroganoff-hero-06-5dc1fb98ed9f4eea97bab613d212eead.jpg",
+      "price": 14.50,
+      "rating":9.25
+  },
+  {
+      "name": "Falafel",
+      "description": "Middle Eastern dish made from ground chickpeas or fava beans, herbs, and spices, formed into balls or patties and fried.",
+      "image": "https://media.gettyimages.com/id/155360590/photo/falafel.jpg?s=612x612&w=0&k=20&c=uSO97lgOpptgBD1Ujbtl-OWbsMQR5eGgJNbIdoACidU=",
+      "price": 9.25,
+      "rating":7.63
+  },
+  {
+      "name": "Chicken Quesadilla",
+      "description": "Mexican dish consisting of a tortilla filled with melted cheese, chicken, and often other ingredients such as onions, peppers, and beans.",
+      "image": "https://media.gettyimages.com/id/469120793/photo/chicken-quesadilla.jpg?s=612x612&w=0&k=20&c=HEf6oEdOD_ruyJ8_Tt6Hm_84NqQJYXYpREP7LL1QUso=",
+      "price": 8.99,
+      "rating":8.49
+  },
+  {
+      "name": "Eggplant Parmesan",
+      "description": "Italian dish consisting of breaded and fried eggplant slices layered with marinara sauce and cheese, then baked until bubbly.",
+      "image": "https://www.seriouseats.com/thmb/cHFjHZMUdyFHp7CALjcPWMmCm9s=/375x250/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__08__20140806-Zucchini-Pepperoni-Parmesan-Stacks-Jennifer-Olvera-1c0347a60a39485187bbc7d2f4572b74.jpg",
+      "price": 11.25,
+      "rating":5.64
+  },
+  {
+      "name": "Beef Tacos",
+      "description": "Mexican dish consisting of a tortilla filled with seasoned beef, lettuce, cheese, and salsa.",
+      "image": "https://media.gettyimages.com/id/179708004/photo/beef-barbacoa-tacos.jpg?s=612x612&w=0&k=20&c=aKyzvGAB3ct79HndVhzIvfHWk3cYkHopoLm9EjqmRiA=",
+      "price": 10.25,
+      "rating":4.5
+  }
+
+
+]
+  
+  
