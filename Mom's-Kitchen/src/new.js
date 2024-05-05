@@ -1,3 +1,48 @@
+const input = document.querySelector('#input-dish')
+const search = document.querySelector('#search-button')
+// const value = input.value;
+search.addEventListener('click',(e)=>{
+  var value = input.value.toLowerCase();
+  // console.log(value)
+
+  fetch('./dishes.json')
+  .then(response=>response.json())
+  .then(data=> {
+    const filterData = data.filter(dish => dish.name.toLowerCase() === value.toLowerCase())
+    console.log(filterData)
+    const dishesdiv = document.querySelector('.dishes')
+    dishesdiv.classList.remove('card')
+    dishesdiv.innerHTML = '';
+    const result = document.createElement('div')
+    result.classList.add('card')
+
+
+    const image =document.createElement('img');
+    image.src = filterData[0].image;
+    result.appendChild(image);
+
+    const name = document.createElement('h2');
+    name.innerText = filterData[0].name;
+    result.appendChild(name);
+
+    const description = document.createElement('p');
+    description.innerText = filterData[0].description;
+    result.appendChild(description);
+    
+   const price = document.createElement('span');
+   price.innerText = filterData[0].price;
+   result.appendChild(price); 
+
+   document.querySelector('.dishes').appendChild(result)
+
+  }   
+  )
+}
+)
+
+
+
+
 
 try {
     fetch('./dishes.json')

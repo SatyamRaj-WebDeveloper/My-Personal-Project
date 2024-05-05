@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mom's Kitchen</title>
     <link rel="stylesheet" href="output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +53,8 @@
         .card span{
             margin-top: 10px;
         }
+
+  
       
 </style>
 
@@ -108,11 +110,15 @@
         <a href="" class=" h-[40px] w-[600px] hover:text-slate-900 border border-solid  hover:bg-white hover:border-slate-900 bg-slate-900 p-10 text-white text-center pb-[60px] text-lg">CAREERS - SEND US A RSUME/SHORT OR A MESSAGE </a>
     </div>
    <div class="flex justify-center items-center ">
-    <input  type="text" placeholder="SEARCH HERE" class=" input border-2 border-solid border-slate-900 m-5 w-[750px] p-3 h-10 rounded-md" >
-    <button  ><img class="  search h-10 w-9 mr-8" src="box-search.svg" alt=""></button>
+    <input  type="text" placeholder="SEARCH HERE"  id="input-dish"  class=" border-2 border-solid border-slate-900 m-5 w-[750px] p-3 h-10 rounded-md" >
+    <button id="search-button"><img class="  search h-10 w-9 mr-8" src="box-search.svg" alt=""></button>
 </div>
+
+<!-- dishes -->
 <div class="dishes grid-cols-5 grid-rows-4 ml-24 items-center gap-[20px] w-fit">     
 </div>
+
+<!-- some-photos-taken-at-mom's-kitchen -->
 <p class="text-3xl mt-0 text-center text-slate-500 shadow-md">Some Photos Taken at Mom's Kitchen</p>
 <span class="photos flex ml-14 ">
     <div class="col-1 h-fit ">
@@ -126,6 +132,8 @@
     </div>
 </span>
 
+
+<!-- image-para -->
 <div class="relative">
     <div class=" h-screen bg-cover  text-2xl text-center text-white items-center p-48 m-20 bg-gradient-to-tr from-slate-500 to-slate-700 bg-blend-overlay "
     style="background-image: url('https://images.pexels.com/photos/2544829/pexels-photo-2544829.jpeg');"
@@ -133,48 +141,56 @@
     <div class="absolute inset-0 bg-black opacity-50 w-fit"></div>
 </div>
 
-<div>
-    <div id="contact" class="main grid place-content-center m-auto h-fit bg-slate-800 w-fit p-20 rounded-lg text-white mb-12 shadow-slate-600 shadow-lg">
-        <h1 class="text-3xl font-semibold "><i class='bx bx-phone m-[8px 8px 0 8px] '></i>Contact Us</h1>
-        <h2 class="text-xl font-medium m-2">Contact Us anytime 24*7 , we are always available for your service</h2>
-        <div class="flex">
-            <div class=" m-10 ">
-                <label for="name" class="text-lg m-2  block font-medium ">First Name:</label>
-                <input type="text"  name="" id="name" required class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none text-slate-700"  placeholder="Enter First Name">
-            </div>
-                <div class="m-10">
-                <label for="name" class="text-lg m-2 block font-medium">Last Name:</label>
-            <input type="text" required name="" id="" class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700" placeholder="Enter First Name">
-            </div>
-        </div>
-       
 
-        <div class="ml-10">
-            <label for="Email" class=" text-lg font-medium block m-2">Email :</label>
-            <input type="email" name="" id="" placeholder="Enter Your Email" class="border-b-2 outline-none w-96 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700">
-            <h3 class="text-base font-medium">example@example.com</h3>
-        </div>
-        <div class="ml-10 mt-8 flex">
-            <div id="Phone-div">
-                <label for="Mobile" class=" text-lg font-medium block m-2">Phone no:</label>
-            <input type="text" name="Mobile" id="Mobile" placeholder="Enter Your Phone Number" class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700">
+<!-- contact-form -->
+<form action="">
+    <div>
+        <div id="contact" class="main grid place-content-center m-auto h-fit bg-slate-800 w-fit p-20 rounded-lg text-white mb-12 shadow-slate-600 shadow-lg">
+            <h1 class="text-3xl font-semibold "><i class='bx bx-phone m-[8px 8px 0 8px] '></i>Contact Us</h1>
+            <h2 class="text-xl font-medium m-2">Contact Us anytime 24*7 , we are always available for your service</h2>
+            <div class="flex">
+                <div class=" m-10 ">
+                    <label for="name" class="text-lg m-2  block font-medium ">First Name:</label>
+                    <input type="text"  name="name" id="name" required class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none text-slate-700"  placeholder="Enter First Name">
+                </div>
+                    <div class="m-10">
+                    <label for="name" class="text-lg m-2 block font-medium">Last Name:</label>
+                <input type="text" required name="" id="" class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700" placeholder="Enter First Name">
+                </div>
             </div>
-            <div class="ml-20">
-                <label for="Address" class=" text-lg font-medium block m-2">Address:</label>
-                <input type="text" name="" id="" placeholder="Enter Your Phone Number" class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700" >  
+           
+    
+            <div class="ml-10">
+                <label for="Email" class=" text-lg font-medium block m-2">Email :</label>
+                <input type="email" name="Email" id="Email"   placeholder="Enter Your Email" required class="border-b-2 outline-none w-96 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700">
+                <h3 class="text-base font-medium">example@example.com</h3>
+            </div>
+            <div class="ml-10 mt-8 flex">
+                <div id="Phone-div">
+                    <label for="Mobile" class=" text-lg font-medium block m-2">Phone no:</label>
+                <input type="text" name="Mobile" id="Mobile" placeholder="Enter Your Phone Number" class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700">
+                </div>
+                <div class="ml-20">
+                    <label for="Address" class=" text-lg font-medium block m-2">Address:</label>
+                    <input type="text" name="" id="" placeholder="Enter Your Phone Number" class="border-b-2 outline-none w-64 py-2 px-3 h-10 rounded-md shadow-md appearance-none  text-slate-700" >  
+                </div>
+                
             </div>
             
+            <div class="mt-8 ml-10">
+               <h3 class="text-lg font-medium block m-2">Write a Message</h3>
+                <textarea name="text" id="text" cols="30" rows="10" class="rounded-lg outline-none border-b-2 shadow-md p-4  text-slate-700" placeholder="Write A Message"></textarea>
+            </div>
+            <div class="grid place-content-center mt-10"><a href="" class="w-fit h-fit border-1 px-4 py-2 text-white rounded-lg border-violet-600 bg-cyan-500 text-xl font-medium hover:text-cyan-500 hover:bg-white hover:scale-125 transition-all ">Submit</a>
+            </div>
+             
         </div>
-        
-        <div class="mt-8 ml-10">
-           <h3 class="text-lg font-medium block m-2">Write a Message</h3>
-            <textarea name="text" id="text" cols="30" rows="10" class="rounded-lg outline-none border-b-2 shadow-md p-4  text-slate-700" placeholder="Write A Message"></textarea>
-        </div>
-        <div class="grid place-content-center mt-10"><a href="" class="w-fit h-fit border-1 px-4 py-2 text-white rounded-lg border-violet-600 bg-cyan-500 text-xl font-medium hover:text-cyan-500 hover:bg-white hover:scale-125 transition-all ">Submit</a>
-        </div>
-         
     </div>
-</div>
+</form>
+
+
+
+<!-- footer -->
 <div class="w-full h-fit flex justify-around " style="background-image: url('https://images.pexels.com/photos/2398375/pexels-photo-2398375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
     <div class="m-20 text-white text-xl w-fit h-fit ">
         <h2 class="hover:tracking-widest"><i class='bx bx-help-circle mb-8'></i>Help & Contact</h2>
