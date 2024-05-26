@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="text-center w-screen h-screen grid place-content-center">
+    
+   <div class="main-div w-fit h-fit  p-10 bg-slate-200 rounded-lg shadow-xl">
+    <h1 class="text-xl m-auto text-blue-500 font-semibold animate-bounce mb-2">Registration Form</h1>
+    <div class="form">
+        <form action="/Register" method="POST" class="flex">
+            <div class="first-part flex flex-col gap-3 m-auto">
+                <input type="text" name="FirstName" placeholder="FirstName*" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+                <input type="email" name="email" placeholder="Email*" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+                <input type="text" name ="Phone" placeholder="Your Phone*" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+                <input type="password" name="Password" placeholder="Password*" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+            </div>
+            <div class="second-part flex flex-col gap-3 m-5">
+                <input type="text" name="LastName" placeholder="LastName" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+                <div class="h-10 text-center items-center flex place-items-start">
+                    <input type="radio" name="gender" id="male" required class="p-2 m-2">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" required class="p-2 m-2">
+                    <label for="female">Female</label>
+                </div>
+                <input type="text" name="age" placeholder="Enter Your Age*" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+                <input type="password" name="ConfirmPassword" placeholder="ConfirmPassword*" required class="px-4 py-2 rounded-lg outline-none text-slate-700">
+            </div>
+           <div class="    ">
+            <button type="submit" class="w-40 mt-5  h-10 px-3 py-2 rounded-lg text-white bg-blue-600 text-center font-medium hover:bg-white hover:text-blue-600 transition-all hover:shadow-xl hover:border hover:border-blue-600 " >Register</button>
+           </div>
+           
+        </form>
+        
+    </div>
+    
+   </div> 
+</body>
+</html>

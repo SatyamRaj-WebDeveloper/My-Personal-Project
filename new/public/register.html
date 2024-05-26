@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>registrationPage</title>
+</head>
+<body class="grid place-content-center">
+     <!-- registration form -->
+  <div class="grid place-content-center">
+    <form action="/register" method="POST" class=" my-20 border border-gray-500 rounded-xl w-fit h-fit p-10 bg-slate-300">
+        <div class="flex " >
+         <label for="FirstName" class="text-lg m-auto font-medium ">FirstName:</label>
+         <input type="text" name="FirstName"  class="outline-none px-3 py-2 w-48 mx-2 rounded-lg border-b-2 border-b-gray-300" placeholder="Enter FirstName">
+         <label for="LastName" class="text-lg m-auto font-medium ">LastName:</label>
+         <input type="text" name="LastName" class="outline-none px-3 py-2 w-48 mx-2 rounded-lg border-b-2 border-b-gray-300" placeholder="Enter LastName">
+         </div>
+      
+      
+      <div class="flex mt-10">
+          <label for="email" class="text-lg m-auto font-medium ">Email:</label>
+          <input type="email " name="Email" class="outline-none px-3 py-2 w-48 mx-4 rounded-lg border-b-2 border-b-gray-300" placeholder="Enter Email">
+          <label for="password" class="text-lg m-auto font-medium ">password:</label>
+          <input type="password " name="password" class="outline-none px-3 py-2 w-48 mx-4 rounded-lg border-b-2 border-b-gray-300"placeholder="Enter Password">
+          <label for="password" class="text-lg m-auto font-medium ">Confirmpassword:</label>
+          <input type="password " name="conpassword" class="outline-none px-3 py-2 w-48 mx-4 rounded-lg border-b-2 border-b-gray-300"placeholder="Enter Password">
+      </div>
+      
+      <div class="mt-8 ">
+        <a href="" class="border border-blue-600 px-4 py-2 rounded-lg bg-white text-blue-600 hover:bg-blue-600 hover:text-white hover:shadow-lg transition-all "><input type="submit" value="Register"></a>
+      </div>
+      
+     
+      
+      
+      </form>
+  </div>
+</body>
+</html>

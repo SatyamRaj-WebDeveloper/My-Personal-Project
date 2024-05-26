@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="output.css">
+    <title>Loginpage</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body class="flex justify-center items-center h-screen w-screen">
+
+    <!-- login-form -->
+    <div class="main-container w-auto h-auto p-5 grid place-content-center bg-slate-200 rounded-lg shadow-xl">
+        <div class="container flex flex-col">
+            <div class="img h-40 w-40 bg-slate-500 rounded-full grid place-content-center m-auto mb-10 "><img src="./user-solid-24.png" alt="" class="h-20 w-20" ></div>
+            <div class="details  ">
+         <form action="/login" method="POST" class="flex flex-col gap-2">
+                    <input type="text" name="email" placeholder="Enter Email" required class="outline-none px-3 py-2 w-84 mx-4 rounded-lg border-b-2 border-b-gray-300" >
+                    <input type="password" name="password" placeholder="password" !required class="outline-none px-3 py-2 w-84 mx-4 rounded-lg border-b-2 border-b-gray-300" >
+
+                    <div class="m-5 w-84 h-10 cursor-pointer">
+                        <a href="" class="text-white bg-blue-600 px-14 py-2  rounded-lg text-center hover:bg-white hover:text-blue-600 transition-all hover:border hover:border-blue-600 w-84 h-10 "><button type="submit">Sign in</button></a>
+                      </div>
+                </form>
+          
+            </div>
+            
+           
+        </div>
+        <a href="/register" class="text-center text-blue-600">Create an account</a>
+    </div>
+   
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./output.css">
+    <title>Document</title>
+    <style>
+        .crad-props{
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            display: inline-block;
+            vertical-align: top;
+            background-color: #f9f9f9;
+            height:400px;
+            transition: all;
+        }
+        .crad span{
+            text-transform: capitalize;
+            font-size: 50px;
+            margin: 8px;
+        }
+        #dish-para{
+            margin: 20px 50px;
+            width: fit-content;
+            height:fit-content
+        }
+    </style>
+</head>
+<body class="h-screen ">
+    <!-- navbar -->
+    <nav class="flex justify-between items-center w-screen h-fit bg-slate-200 p-5  ">
+        <h1 class="mx-10 text-lg text-blue-700 ">PRACTICE</h1>
+
+        <input class="px-3 py-2 w-96 border-gray-600 outline-none rounded-xl text-gray-600 " type="text" name="text" id="" placeholder="search here">
+
+        <ul class="flex justify-around items-center gap-4 mx-10 text-blue-700 text-lg w-fit">
+            <li>
+                <a  class="cursor-pointer" href="/home">Home</a>
+            </li>
+            <li>
+                <a  class="cursor-pointer" href="/register">Register</a>
+            </li>
+            <li>
+                <a class="cursor-pointer" href="/login">Login</a>
+            </li>
+            <li>
+                <a class="cursor-pointer">Resources</a>
+            </li>
+            <li>
+                <a class="cursor-pointer">Docs</a>
+            </li>
+            <li>
+                <a class="border border-orange-600 p-3 rounded-2xl text-orange-700 hover:bg-orange-700 hover:text-black hover:shadow-xl transition-all "><input   type="button" value="">Buy Now</a>
+            </li>
+        </ul>
+    </nav>
+<div class="" id="dish-para"></div>
+ 
+
+
+
+</body>
+<script src="index.js"></script>
+</html>
